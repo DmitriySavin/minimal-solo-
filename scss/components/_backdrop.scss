@@ -1,0 +1,15 @@
+.burger-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 88px;
+    // padding: 32px;
+    background-color: $white;
+    z-index: 999;
+    transform: translateX(0%);
+    transition: transform 250ms ease-in-out;
+}
+.burger-modal.is-open {
+    transform: translateX(100%);
+}

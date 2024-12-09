@@ -1,0 +1,21 @@
+.header {
+    padding-top: 32px;
+        padding-bottom: 32px;
+}
+.header-pos {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-list {
+    display: none;
+}
+.burger-button {
+background: transparent;
+    border: none;    
+}
+.burger-btn__Svg {
+    width: 32px;
+    height: 32px;
+
+}
