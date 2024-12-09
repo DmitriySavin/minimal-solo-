@@ -13,8 +13,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-    <title>Minimal</title>
-    <link rel="stylesheet" href="./scss/main.css">
+<link rel="stylesheet" href="./scss/main.css">    
+<title>Minimal</title>
+    
   </head>
   <body>
     <header class="header">
@@ -43,6 +44,11 @@
     <main></main>
     <footer class="footer"></footer>
     <div class="burger-modal is-open js-menu-container" >
+      <button class="burger-button-close js-close-menu" >
+  <svg class="burger-btn-svg__close">
+    <use href="./icons/symbol-defs-modal.svg#icon-modal-close__svg"></use>
+  </svg>
+  </button>
       <ul class="burger-list">
     <li class="burger-list__item">About us</li>
     <li class="burger-list__item">Our products</li>
@@ -52,6 +58,6 @@
     <li class="burger-list__item">Contacts</li>
   </ul>
     </div>
-    <script src="./scripts/modal-menu.js" type="module"></script>
+    <script src="./script/modal-menu.js" type="module"></script>
   </body>
 </html>
