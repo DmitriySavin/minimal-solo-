@@ -159,15 +159,29 @@ content: "";
   background: transparent;
     border: gainsboro;
 }
-.burger-list {
-display: flex;
+.burger-list-container {
+  display: flex;
+  /* Включаем Flexbox */
   justify-content: center;
+  /* Горизонтальное выравнивание */
   align-items: center;
+  /* Вертикальное выравнивание */
   height: 100vh;
+  /* Высота контейнера = высота экрана */
   margin: 0;
+  /* Убираем отступы */
   padding: 0;
-  list-style: none;
-  flex-direction: column;
+  /* Убираем внутренние отступы */
+  text-align: center;
+  /* Центрирование текста */
+}
+.burger-list {
+list-style: none;
+  /* Убираем маркеры списка */
+  padding: 0;
+  /* Убираем внутренние отступы */
+  margin: 0;
+  /* Убираем внешние отступы */
 }
 .burger-list__item {
   font-family: var(--font-family);
