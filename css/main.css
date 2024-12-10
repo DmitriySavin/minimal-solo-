@@ -160,12 +160,14 @@ content: "";
     border: gainsboro;
 }
 .burger-list {
-  margin-top: 200px;
-    margin-left: 125px;
-
-    @media screen and (min-width: 768px) {
-        margin-left: 310px;
-      }
+display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  flex-direction: column;
 }
 .burger-list__item {
   font-family: var(--font-family);
