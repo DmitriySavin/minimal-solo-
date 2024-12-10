@@ -1,6 +1,7 @@
 .header {
     padding-top: 32px;
         padding-bottom: 32px;
+        background: #0A224A;
 }
 .header-pos {
     display: flex;
@@ -29,7 +30,7 @@ background: transparent;
     background-color: $white;
     z-index: 999;
     transform: translateX(0%);
-    transition: transform 250ms ease-in-out;
+    transition: transform 200ms ease-in-out;
 }
 
 .burger-modal.is-open {

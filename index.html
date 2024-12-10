@@ -13,7 +13,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="./scss/main.css">    
+<link rel="stylesheet" href="./css/main.css">    
 <title>Minimal</title>
     
   </head>
@@ -25,12 +25,12 @@
 </a>
 <nav class="nav">
   <ul class="nav-list">
-    <li class="nav-list__item">About us</li>
-    <li class="nav-list__item">Our products</li>
-    <li class="nav-list__item">Prices</li>
-    <li class="nav-list__item">Bestsellers</li>
-    <li class="nav-list__item">Reviews</li>
-    <li class="nav-list__item">Contacts</li>
+    <li class="nav-list__item"><a href="#" class="nav-list__link">About us</a></li>
+    <li class="nav-list__item"><a href="#" class="nav-list__link">Our products</a></li>
+    <li class="nav-list__item"><a href="#" class="nav-list__link">Prices</a></li>
+    <li class="nav-list__item"><a href="#" class="nav-list__link">Bestsellers</a></li>
+    <li class="nav-list__item"><a href="#" class="nav-list__link">Reviews</a></li>
+    <li class="nav-list__item"><a href="#" class="nav-list__link">Contacts</a></li>
   </ul>
 </nav>
 <button class="burger-button js-open-menu" >
@@ -44,11 +44,17 @@
     <main></main>
     <footer class="footer"></footer>
     <div class="burger-modal is-open js-menu-container" >
+      <div class="burger-pos">
+         <a href="#" class="modal-logo__link">
+    <img src="./img/logo(m).png" alt="MINIMAL" class="header-logo">
+</a>
       <button class="burger-button-close js-close-menu" >
   <svg class="burger-btn-svg__close">
     <use href="./icons/symbol-defs-modal.svg#icon-modal-close__svg"></use>
   </svg>
   </button>
+      </div>
+         
       <ul class="burger-list">
     <li class="burger-list__item">About us</li>
     <li class="burger-list__item">Our products</li>
